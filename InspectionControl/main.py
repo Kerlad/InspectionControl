@@ -34,7 +34,7 @@ def create_line(path):
                                 line = [ech.name, person.name, normativ.name, check.name,  1]
                                 check_count += 1 # есть видео
                             else:
-                                if check_name != '01.08 ЭЧК-№':
+                                if check.name != '01.08 ЭЧК-№':
                                     line = [ech.name, person.name, normativ.name, check.name,  0]
                                     check_count += 1# нет видео
                             Flag = False
